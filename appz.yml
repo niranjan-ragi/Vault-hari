@@ -1,7 +1,7 @@
 app:
     name: Vault
     code: VAULT
-    notify: sjunu@ecloudcontrol.com
+    notify: hkrishnan@ecloudcontrol.com
 
 build:
     version: 0.4
@@ -11,7 +11,7 @@ build:
     image_template: vault-1.2
 
 deploy:
-    context: SJ-CloudControl/DEV
+    context: Hari2833374ecloud/DEV
     type: statefulset
     replicas: 1
     port:
